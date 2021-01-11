@@ -1,0 +1,157 @@
+@CHARSET "UTF-8";
+
+body {
+    color: #333333;
+    font-family: "Hiragino Kaku Gothic Pro",Meiryo,"MS PGothic",Helvetica,Arial,sans-serif;
+}
+
+#header {
+    width: 100%;
+    height: 70px;
+    background-color: skyblue;
+}
+
+#content {
+    width: 94%;
+    margin-top: 15px;
+    padding-left: 3%;
+}
+
+h1 {
+    font-size: 24px;
+    display: inline;
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+li {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #24738e;
+}
+
+table, tr, th, td {
+    border: 1px solid #cccccc;
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+th {
+	font-size: 20px;
+    width: 26%;
+    padding: 10px 2%;
+}
+
+td {
+    width: 66%;
+    padding: 10px 2%;
+}
+
+button {
+    font-size: 14px;
+    padding: 5px 10px;
+}
+
+#footer {
+    text-align: center;
+}
+#flush_success {
+    width: 100%;
+    padding-top: 28px;
+    padding-left: 2%;
+    padding-bottom: 28px;
+    margin-bottom: 15px;
+    color: #155724;
+    background-color: #dbffff;
+}
+#flush_error {
+    width: 100%;
+    padding-top: 28px;
+    padding-left: 2%;
+    padding-bottom: 28px;
+    margin-bottom: 15px;
+    color: #721c24;
+    background-color: #f8d7da;
+}
+table#user_list th {
+    width: 30%;
+    padding: 10px 2%;
+}
+
+table#user_list td {
+    width: 29%;
+    padding: 10px 2%;
+}
+
+tr.row1 {
+        background-color: #f2f2f2;
+}
+tr.row0 {
+        background-color: #c8f7f7;
+}
+select {
+    height: 30px;
+}
+#header_menu {
+    width: 57%;
+    padding-top: 17px;
+    padding-left: 3%;
+    display: inline-block;
+}
+
+#user_name {
+    color: #cccccc;
+    width: 36%;
+    padding-right: 3%;
+    text-align: right;
+    display: inline-block;
+}
+
+#header a {
+    color: #eeeeee;
+}
+
+h1 a {
+    color: #eeeeee;
+}
+
+table#blog_list th {
+	background_color: red;
+    font-weight: bold;
+    padding: 10px 2%;
+}
+
+table#blog_list .blog_name {
+    width: 20%;
+    padding: 10px 2%;
+}
+table#blog_list .blog_date {
+    width: 20%;
+}
+
+table#blog_list .blog_title {
+    width: 37%;
+}
+
+table#blog_list .blog_action {
+    width: 13%;
+}
+
+h3 {
+    font-size: larger;
+}
